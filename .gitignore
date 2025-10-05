@@ -1,0 +1,53 @@
+# ========================================
+# Generic PHP / WordPress / Drupal / HumHub
+# ========================================
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Composer / PHP
+/vendor/
+/composer.lock
+/composer.phar
+
+# Node / Frontend
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Build / Cache
+/cache/
+/tmp/
+/logs/
+/dist/
+/build/
+/coverage/
+/.env
+.env.*
+*.log
+
+# WordPress-specific
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/debug.log
+
+# Drupal-specific
+/sites/*/files/
+/core/
+/vendor/
+/modules/contrib/
+/themes/contrib/
+
+# HumHub-specific
+/protected/runtime/
+/uploads/
